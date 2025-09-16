@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+        background: linear-gradient(45deg, #dbeafe, #f0f9ff);
+
+ margin: 0;
+  min-height: 100vh;
+  background-image: url("image23.webp");
+  background-size: cover;           /* Görseli ekrana tam yay */
+  background-repeat: no-repeat;
+  background-position: center center; /* Ortala */
+  background-attachment: fixed; 
+
+}
+
+#playArtist{
+    display: inline-block;
+    margin-left: 10px;
+}
+#upperPause{
+    display: inline-block;
+    text-align: right;
+    position: absolute;
+    right:30px;
+    font-size: 30px;
+    top: 30px;
+}
+#musicPlay{
+    font-family: 'Poppins',sans-serif;
+    border-radius: 0 0 30px 30px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1); 
+      box-shadow: 0 10px 32px rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(10px); 
+      -webkit-backdrop-filter: blur(10px); 
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #334155;
+      display: none;
+}
+.musicDown{
+      animation: down 1s ease-out 1 ;
+}
+#image{
+     width: 50px;     
+  height: 50px;
+  border-radius: 50%; 
+  object-fit: cover;  
+  box-shadow: 0 0 15px rgba(0,0,0,0.3); 
+  margin-top: 20px;
+}
+.musicImg{
+  animation: spin 10s linear infinite; 
+
+}
+#musicName{
+    font-size: 20px;
+}
+#artistName{
+    font-size: 12px;
+}
+#quest1{
+    display: block;
+}
+#quest2{
+    display: none;
+}
+#quest3{
+    display: none;
+}
+#quest4{
+    display: none;
+}
+#quest5{
+    display: none;
+}
+#quest6{
+    display: none;
+}
+#quest7{
+    display: none;
+}
+#quest8{
+    display: none;
+}
+#quest9{
+    display: none;
+}
+#quest10{
+    display: none;
+}
+#quest11{
+    display: none;
+}
+#quest12{
+    display: none;
+}
+#quest13{
+    display: none;
+}
+#quest14{
+    display: none;
+}
+#quest15{
+    display: none;
+}
+#quest16{
+    display: none;
+}
+#quest17{
+    display: none;
+}
+#quest18{
+    display: none;
+}
+#quest19{
+    display: none;
+}
+#quest20{
+    display: none;
+}
+#quest21{
+    display: none;
+}
+#quest22{
+    display: none;
+}
+#quest23{
+    display: none;
+}
+#quest24{
+    display: none;
+}
+.questCome{
+      animation: comeAnim 1s ease-out 1;
+
+}
+.questGo{
+      animation: goAnim 1s ease-out 1;
+
+}
+.quests{
+    font-family: 'Poppins',sans-serif;
+    padding: 10px;
+    border-radius: 2px;
+    position: relative;
+    top: 200px;
+    height: 330px;
+    max-width: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+     background: rgba(255, 255, 255, 0.1); 
+      box-shadow: 0 10px 32px rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(10px); 
+      -webkit-backdrop-filter: blur(10px); 
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #334155;
+    
+
+}
+.number{
+    font-weight: 700;
+    text-align: right;
+}
+.quests h3{
+    margin-bottom: 10px;
+}
+    .quests input{
+        margin-top: 10px;
+    width: 250px;
+    height: 30px;
+    border: 0;
+    border-bottom: 2px solid #334155 !important;
+    padding: 3px;
+    font-family: 'Poppins',sans-serif;
+    background: transparent;
+    color: #334155;
+    font-weight: 700;
+}
+.btn{
+    height: 30px;
+    width: 300px;
+    border: 2px solid #334155;
+    border-radius: 2px;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    margin-top: 30px;
+    font-weight: 700;
+    color: #334155;
+}
+#playBtn{ margin-top: 10px; 
+    font-size: 30px; 
+    margin-left: 20px; 
+    display: inline-block; } 
+#artist{ 
+    display: inline-block; 
+    margin-left: 5px;
+    max-width: 100px; }
+#artist p{
+    font-size: 10px;
+    }
+#musicDiv{
+        background: transparent;
+    padding: 3px;
+    color: #334155;
+    border: 2px solid #334155;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+#playBtn2{ margin-top: 10px; 
+    font-size: 30px; 
+    margin-left: 20px; 
+    display: inline-block; } 
+#artist2{ 
+    display: inline-block; 
+    margin-left: 5px;
+    max-width: 15
+    0px; 
+    margin-top: 5px;
+}
+#artist2 p{
+    font-size: 10px;
+    }
+    #musicDiv2 i{
+        margin-bottom: 10px;
+    }
+#musicDiv2{
+    background: transparent;
+    padding: 3px;
+    color: #334155;
+    border: 2px solid #334155;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+#gunsBtn{
+    margin-top: 20px;
+    background-color: transparent;
+    font-family: 'Poppins',sans-serif;
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    color: #ff0000;
+    border: 2px solid red;
+
+}
+#video{
+    max-width: 300px;
+}
+.lastQuest{
+    height: 690px !important;
+    top: 100px;
+}
+.lastQuest video{
+    border-radius: 3px;
+}
+@keyframes goAnim {
+    from{
+        left: 50%;
+    transform: translateX(-50%);
+    opacity: 100%;
+    }
+    to{
+        left: 1px;
+        opacity: 0;
+        display: none;
+    }
+}
+@keyframes comeAnim {
+  0% {
+    left: 100%;
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes down {
+    from{
+        top: -200px;
+    }
+    to{
+        top: 0;
+    }
+}
