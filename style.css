@@ -255,7 +255,7 @@ body{
     height: 690px !important;
     top: 100px;
 }
-.lastQuest video{
+.lastQuest iframe{
     border-radius: 3px;
 }
 @keyframes goAnim {
